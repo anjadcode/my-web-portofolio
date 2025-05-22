@@ -1,48 +1,38 @@
 export default function Hero() {
     return (
-        <section id="hero" className="relative pt-12 pb-20 bg-gray-50 overflow-hidden sm:pt-16 lg:pt-24 lg:pb-32">
-            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-16 items-center">
-                    {/* Left Column: Text Content */}
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl xl:text-6xl">
-                            Hi, I'm <span className="text-blue-600">Your Name</span>.
-                            <br className="hidden md:block" /> I build web experiences.
-                        </h1>
-                        <p className="mt-6 text-lg font-normal leading-8 text-gray-600">
-                            A passionate [Your Profession, e.g., Software Developer / UI/UX Designer] specializing in [Your Niche, e.g., building scalable web applications / crafting intuitive user interfaces].
-                        </p>
-                        <div className="mt-10 flex justify-center lg:justify-start">
-                            <a
-                                href="#projects" // Link to your projects section
-                                title="View My Work"
-                                className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
-                                role="button"
-                            >
-                                View My Work
-                            </a>
-                            {/* Optional: Add a secondary CTA like "Contact Me" or "Download Resume" */}
-                            {/* <a
-                                href="#contact"
-                                title="Contact Me"
-                                className="inline-flex items-center justify-center px-8 py-3 ml-4 text-base font-semibold text-blue-600 transition-all duration-200 bg-transparent border border-blue-600 rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
-                                role="button"
-                            >
-                                Contact Me
-                            </a> */}
-                        </div>
+        <section id="hero">
+            <div className="relative bg-gray-50 overflow-hidden">
+                <div className="max-w-7xl mx-auto">
+                    <div className="relative z-10 pb-8 bg-gray-50 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                        <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                            <div className="sm:text-center lg:text-left">
+                                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                                    <span className="block">Hi, I'm</span>
+                                    <span className="block text-indigo-600">Rozin</span>
+                                </h1>
+                                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                                    Professional IT Developer with 3+ years of experience in Cobol, Cardlink, AS400 on Banking Industries.
+                                </p>
+                                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                                    <div className="rounded-md shadow">
+                                        <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                                            View Portfolio
+                                        </a>
+                                    </div>
+                                    <div className="mt-3 sm:mt-0 sm:ml-3">
+                                        <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                                            Contact Me
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
                     </div>
-
-                    {/* Right Column: Image */}
-                    <div className="relative mt-12 lg:mt-0 lg:ml-auto flex justify-center lg:justify-end">
-                        {/* Placeholder for your professional photo */}
-                        <img
-                            className="w-full max-w-md h-auto rounded-xl shadow-lg object-cover"
-                            src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/1/author.png" // Replace with your actual photo
-                            alt="Your Photo"
-                        />
-                        {/* Optional: Add a subtle overlay or background shape if desired */}
-                        {/* <div className="absolute inset-0 -bottom-20 bg-gradient-to-tr from-blue-100 to-transparent transform -rotate-3 scale-105 rounded-xl -z-10"></div> */}
+                </div>
+                <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                    
+                    <div className="h-56 w-full sm:h-72 md:h-96 lg:w-full lg:h-full flex items-center justify-center">
+                        <img className="rounded-full h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 object-cover border-8 border-white shadow-xl" src="rozin.jpeg" alt="Profile photo"/>
                     </div>
                 </div>
             </div>

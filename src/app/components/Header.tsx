@@ -5,11 +5,11 @@ export default function Header() {
                 {/**/}
                 <nav className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
-                        <a href="#" title="Your Name/Logo" className="flex">
+                        <a href="#" title="Rozin Web Profile" className="flex">
                             {/* Replace with your name as text or your personal logo */}
-                            <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="Your Name/Logo" /> 
+                            {/*<img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="Rozin Anjad" /> */}
                             {/* Alternatively, use text for your name: */}
-                            {/* <span className="text-2xl font-bold text-gray-900">Your Name</span> */}
+                            <span className="text-2xl font-bold text-gray-900">M. Rozin Anjad</span> 
                         </a>
                     </div>
 

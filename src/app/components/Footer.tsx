@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
 
                 <p className="text-sm text-gray-600 mt-4">
-                    © {currentYear} [Your Name]. All Rights Reserved.
+                    © {currentYear} M. Rozin Anjad. All Rights Reserved.
                 </p>
             </div>
         </footer>
